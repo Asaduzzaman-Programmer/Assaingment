@@ -3,7 +3,7 @@
   background: rgb(0, 0, 0);
   color: aliceblue;
 }
-body {
+main {
   margin-left: 14rem;
   margin-right: 14rem;
 }
@@ -273,6 +273,14 @@ p {
   text-align: center;
 }
 
+footer {
+  background: rgb(34, 34, 34);
+  height: 300px;
+  width: 100%;
+}
+
+/* Responsive start Here */
+
 @media screen and (max-width: 574px) {
   .main {
     flex-direction: column;
@@ -281,7 +289,7 @@ p {
     margin-top: 30px;
     margin-left: 5px;
   }
-  body {
+  main {
     margin: 0;
   }
   .link {
