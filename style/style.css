@@ -375,7 +375,7 @@ hr {
     justify-content: center;
     align-items: center;
     justify-items: center;
-    margin-top: 1000px;
+    margin-top: 1060px;
     display: block;
   }
   .run img {
@@ -393,5 +393,21 @@ hr {
   .meet {
     width: auto;
     height: fit-content;
+  }
+  .last {
+    flex-direction: column;
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    height: fit-content;
+  }
+  hr {
+    width: 90%;
+  }
+
+  .right {
+    margin-top: 350px;
+    padding-bottom: 20px;
   }
 }
