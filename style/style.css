@@ -184,6 +184,7 @@ p {
 }
 
 .extra {
+  padding: 30px;
   margin-top: 30px;
   display: flex;
   margin-left: auto;
@@ -195,7 +196,6 @@ p {
   width: 1160px;
   height: 351px;
   background: rgb(34, 34, 34);
-  padding: 30px;
   border-radius: 14px;
 }
 
@@ -223,10 +223,48 @@ p {
 .run {
   background: transparent;
 }
+.bonus {
+  margin-top: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 1230px;
+  height: 460px;
+  background: rgb(34, 34, 34);
+  border-radius: 14px;
+}
+
+.calculate {
+  background: rgb(34, 34, 34);
+}
+.table {
+  height: 360px;
+  width: 500px;
+  background: rgb(34, 34, 34);
+}
+
+.from {
+  height: 330px;
+  width: 500px;
+  background: rgb(34, 34, 34);
+}
+.hisab {
+  margin-top: 30px;
+  border-radius: 42px;
+  padding: 12px 40px 12px 40px;
+  background: rgb(230, 83, 60);
+  text-decoration: none;
+}
+
+.text-third {
+  margin-left: 105px;
+}
 
 .meet {
-  margin-top: 30px;
-
   margin-left: auto;
   margin-right: auto;
   gap: 90px;
@@ -287,7 +325,33 @@ footer {
   height: 250px;
   width: 100%;
 }
+.in {
+  position: relative;
+  background: rgb(34, 34, 34);
+}
+.in input {
+  width: 234px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  margin: 4px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+}
 
+.in select {
+  width: 490px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  padding: 7px;
+  margin: 4px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.lin {
+  margin-top: 20px;
+  position: absolute;
+}
 .last {
   margin-left: auto;
   margin-right: auto;
@@ -335,6 +399,20 @@ hr {
   color: rgb(230, 83, 60);
 }
 
+.chart {
+  background: rgb(34, 34, 34);
+}
+table th {
+  text-align: center;
+  background: rgb(34, 34, 34);
+  width: 350px;
+  height: 40px;
+}
+table td {
+  text-align: center;
+  background: rgb(34, 34, 34);
+  height: 40px;
+}
 /* Responsive start Here */
 
 @media screen and (max-width: 574px) {
@@ -417,5 +495,34 @@ hr {
   .right {
     margin-top: 350px;
     padding-bottom: 20px;
+  }
+  .bonus {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .from {
+    width: 70%;
+  }
+  .table {
+    width: 70%;
+  }
+  .text-third {
+    margin-left: 5px;
+  }
+  .in input {
+    width: 170px;
+  }
+  .in select {
+    width: 170px;
+  }
+  .bonus {
+    height: 1000px;
+    gap: 70px;
+  }
+  .table {
+    margin-top: -200px;
   }
 }
