@@ -21,6 +21,15 @@ p {
   justify-content: space-between;
 }
 
+.home {
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 19px;
+}
+
 .fitness {
   color: rgb(230, 83, 60);
   font-weight: 800;
@@ -28,7 +37,6 @@ p {
 }
 
 .link {
-  border: 0.1rem solid gray;
   padding: 0.5rem;
   border-radius: 1rem;
 }
