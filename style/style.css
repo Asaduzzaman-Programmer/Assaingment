@@ -218,7 +218,7 @@ p {
 
 .meet {
   margin-top: 30px;
-  display: flex;
+
   margin-left: auto;
   margin-right: auto;
   gap: 90px;
@@ -253,7 +253,8 @@ p {
   margin-left: 20px;
 }
 .meet-flex div img {
-  width: 300px;
+  width: 355px;
+  height: 270px;
   padding: 10px;
   background: rgb(34, 34, 34);
 }
@@ -328,5 +329,13 @@ p {
     text-align: center;
     justify-content: center;
     align-items: center;
+  }
+  .meet-flex {
+    display: grid;
+    grid-template-areas: "area";
+  }
+  .meet {
+    width: auto;
+    height: fit-content;
   }
 }
