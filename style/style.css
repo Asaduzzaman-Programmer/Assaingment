@@ -216,6 +216,62 @@ p {
   background: transparent;
 }
 
+.meet {
+  margin-top: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 90px;
+  justify-content: center;
+
+  width: 1160px;
+  height: 551px;
+  background: rgb(34, 34, 34);
+  padding: 30px;
+  border-radius: 14px;
+}
+
+.meet-flex {
+  display: grid;
+  grid-template-areas: "area area area";
+  background: rgb(34, 34, 34);
+}
+
+.area {
+  background: rgb(34, 34, 34);
+}
+
+.area img {
+  height: 255px;
+  border-radius: 19px;
+  position: relative;
+}
+.rela {
+  position: absolute;
+  background: transparent;
+  margin-top: -115px;
+  margin-left: 20px;
+}
+.meet-flex div img {
+  width: 300px;
+  padding: 10px;
+  background: rgb(34, 34, 34);
+}
+
+.tran {
+  background: transparent;
+  font-size: 1.5rem;
+  font-family: Inter;
+}
+
+.text {
+  margin-top: -18px;
+}
+
+.text-second {
+  text-align: center;
+}
+
 @media screen and (max-width: 574px) {
   .main {
     flex-direction: column;
